@@ -1,0 +1,19 @@
+{
+  "description": "Command line tool to mock network services",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "flatiron": "0.3.11"
+  },
+  "devDependencies": {
+    "cli-easy": "0.1.0",
+    "vows": "0.6.1"
+  },
+  "scripts": {
+    "test": "vows --spec",
+    "start": "node app.js"
+  },
+  "name": "netlocal",
+  "author": "Aaron VonderHaar <gruen0aermel@gmail.com>",
+  "homepage": "http://github.com/avh4/netlocal-js"
+}
