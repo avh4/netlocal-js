@@ -7,7 +7,8 @@
   },
   "devDependencies": {
     "cli-easy": "0.1.0",
-    "vows": "0.6.1"
+    "vows": "0.6.1",
+    "js-beautify": "~1.4.2"
   },
   "scripts": {
     "test": "vows --spec",
