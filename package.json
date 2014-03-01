@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "flatiron": "0.3.11"
+    "flatiron": "0.3.11",
+    "promise": "~4.0.0"
   },
   "devDependencies": {
     "cli-easy": "0.1.0",
