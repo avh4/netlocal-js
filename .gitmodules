@@ -1,0 +1,3 @@
+[submodule "netlocal-spec"]
+	path = netlocal-spec
+	url = git@github.com:avh4/netlocal-spec.git

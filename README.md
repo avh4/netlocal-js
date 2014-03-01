@@ -1,7 +1,7 @@
 
 ## Development commands
 
- - Bootstrap: `npm install`
- - Run tests: See [avh4/netlocal-spec](http://github.com/avh4/netlocal-spec)
+ - Bootstrap: `git submodule update --init; npm install`
+ - Run tests: `(cd netlocal-spec; rspec)`
  - Build: `find lib -name "*.js" -print0 | xargs -0 js-beautify -r`
- - Run: `bin/netlocal`
+ - Run: `./bin/netlocal`
